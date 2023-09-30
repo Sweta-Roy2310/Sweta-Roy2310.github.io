@@ -153,12 +153,12 @@ img.profile-img{
     }
     
     h1#heading{
-        font-size: 3em;
+        font-size: 2em;
     }
     
     
     p#tagLine{
-        font-size: 2em;
+        font-size: 1.5em;
     }
     .card:hover{transform: scale(1);}
 
