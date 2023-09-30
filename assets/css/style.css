@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
+
+body{background: #f0f8ff;}
+
+.color-site-blue{color: #173B6C;}
+
+.color-grey{color: #888888;}
+
+.centralize{text-align: center;}
+
+#cover{
+    width: 100%;
+    height: 100vh !important;
+}
+
+.custom-container{
+    width: 100%;
+    text-align: center;
+}
+
+img#dp{
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+}
+
+h1#heading{
+    font-size: 5em;
+    font-family: 'ZCOOL XiaoWei',sans-serif;
+    color: #f0f8ff;
+    text-shadow: 2px 3px 8px orange;
+}
+
+
+p#tagLine{
+    font-size: 3em;
+    font-family: 'ZCOOL XiaoWei',sans-serif;
+    color: #f0f8ff;
+}
+
+.sub-sections{margin: 5% 0;}
+
+.sub-sections h2, .sub-sections h3{
+    color: #173B6C;
+}
+
+.sub-sections p{text-align: justify;}
+
+.underline{
+    height: 3px;
+    width: 30%;
+    background: #FFD700;
+    border-radius: 0 50% 50% 0;
+}
+
+img.profile-img{
+    height: 300px;
+    width: auto;
+}
+
+.skill-images{
+    top: 50px;
+    height: 72px;
+    margin-left: 48px;
+    position: relative;
+}
+
+.years{width: fit-content; padding: 4px 6px; background: #e4edf9;}
+
+.card:hover{transition: 500ms;}
+.card:hover{
+    transition: all 500ms;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 8px 1px #121212;
+    z-index: 1000;
+}
+
+#rainDrops{
+    height: 50px;
+    width: 100%;
+}
+
+.footer{
+    width: 100%;
+    padding: 8px 0;
+    background: #121212;
+    color: #FFFFFF;
+}
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    z-index: 1000;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Style the social media icons with color, if you want */
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .github {
+    background: #121212;
+    color: white;
+  }
+
+/* ======================= Custom Scrollbar ====================== */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #173B6C;
+    border-radius: 10px;
+  }
+
+
+/* ======================= Media Query ====================== */
+
+@media screen and (max-width:690px) {
+
+    #cover{height: 50vh !important;}
+
+    img#dp{
+        height: 200px;
+        width: 200px;
+    }
+    
+    h1#heading{
+        font-size: 3em;
+    }
+    
+    
+    p#tagLine{
+        font-size: 2em;
+    }
+    .card:hover{transform: scale(1);}
+
+    .icon-bar {
+        top: 3%;
+    }
+    .icon-bar a {
+        display: inline;
+        margin: 0;
+      }
+}
